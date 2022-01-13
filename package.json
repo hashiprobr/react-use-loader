@@ -1,0 +1,30 @@
+{
+  "name": "@hashiprobr/react-use-loader",
+  "version": "1.0.0",
+  "description": "TODO",
+  "keywords": [
+    "JavaScript",
+    "React",
+    "React Hook",
+    "Three.js",
+    "TextureLoader"
+  ],
+  "homepage": "https://github.com/hashiprobr/react-use-loader#readme",
+  "bugs": {
+    "url": "https://github.com/hashiprobr/react-use-loader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashiprobr/react-use-loader.git"
+  },
+  "license": "ISC",
+  "author": "Marcelo Hashimoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "three": ">=0.136.0"
+  }
+}
