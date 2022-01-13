@@ -15,7 +15,7 @@ This hook returns an object with three properties:
 * an asynchronous method `loadModel`, that receives one of the [Three.js model
   loader
   classes](https://github.com/mrdoob/three.js/tree/dev/examples/jsm/loaders) and
-  an URI, and returns the corresponding model;
+  an URI, and returns the corresponding model.
 
 
 Peer dependencies
@@ -107,7 +107,7 @@ export default function MyComponent() {
     async function onPress() {
         let model;
         try {
-            model = await loader.loadModel(OBJLoader, 'https://people.sc.fsu.edu/~jburkardt/data/obj/cube.obj');
+            model = await loader.loadModel(OBJLoader, 'uri/to/a/model');
         } catch (error) {
             console.error(error);
         }

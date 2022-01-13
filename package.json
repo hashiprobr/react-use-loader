@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-use-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Hook for simplifying basic usage of Three.js loaders",
   "keywords": [
     "JavaScript",
