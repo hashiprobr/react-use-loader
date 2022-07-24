@@ -8,7 +8,7 @@ export default function useLoader() {
         setLoading(true);
         const promise = new Promise((resolve, reject) => {
             const loader = new Loader();
-            loader.loadModel(uri, resolve, onProgress, reject);
+            loader.load(uri, resolve, onProgress, reject);
         });
         try {
             model = await promise;
