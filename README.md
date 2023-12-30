@@ -1,6 +1,8 @@
 react-use-loader
 ================
 
+[PROJECT DISCONTINUED]
+
 **A React Hook for simplifying basic usage of [Three.js](https://threejs.org/)
 model loaders**
 
